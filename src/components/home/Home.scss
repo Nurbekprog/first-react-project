@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.home {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 114px;
+  &-left h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #22343d;
+  }
+  &-left p {
+    margin-top: 18px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #22343d;
+  }
+  &-left-btns {
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
+    gap: 30px;
+  }
+  &-btn {
+    padding: 15px 41px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 5px;
+    background: #02897a;
+    color: #fff;
+    border: none;
+  }
+  & div a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: underline;
+    color: #02897a;
+  }
+  &-right img {
+    width: 100%;
+    max-width: 610px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home {
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+  .home-left h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .home-left p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .home-left-btns {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    & a {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-left h2 {
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+  }
+  .home-left {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-left-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .home {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
