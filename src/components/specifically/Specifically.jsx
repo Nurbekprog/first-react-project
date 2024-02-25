@@ -6,7 +6,7 @@ import Icon4 from "../assets/icon4.png";
 
 function Specifically() {
   return (
-    <div className="specifically">
+    <div className="specifically" id="product">
       <div className="specifically-headtext container">
         <h2>Product was Built Specifically for You</h2>
       </div>

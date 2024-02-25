@@ -14,10 +14,16 @@ function Header() {
         </div>
         <div className="nav-right">
           <ul className="nav-list">
-            <li className="nav-list-items">Product</li>
-            <li className="nav-list-items">Customers</li>
-            <li className="nav-list-items">Pricing</li>
-            <li className="nav-list-items">Resources</li>
+            <li className="nav-list-items">
+              <a href="#product">Product</a>
+            </li>
+            <li className="nav-list-items">
+              <a href="#">Customers</a>
+            </li>
+            <li className="nav-list-items">
+              <a href="#price-table">Pricing</a>
+            </li>
+            <li className="nav-list-items"><a href="#resources">Resources</a></li>
           </ul>
           <button className="sign-in">Sign In</button>
           <button className="sign-up">Sign Up</button>

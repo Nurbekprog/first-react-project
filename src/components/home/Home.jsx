@@ -3,7 +3,7 @@ import HomeImage from "../assets/amico.png";
 import PlayImage from "../assets/play.png";
 function Home() {
   return (
-    <div className="home container">
+    <div className="home container" id="resources">
       <div className="home-left">
         <h2>Work at the speed of thought</h2>
         <p>

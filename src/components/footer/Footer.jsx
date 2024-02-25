@@ -2,7 +2,7 @@ import "./Footer.scss";
 import FooterImg from "../assets/footer-img.png";
 function Footer() {
   return (
-    <div className="container footer">
+    <div className="container footer" id="resources">
       <div className="footer-left">
         <h2>Join 100 Compannies who <br /> boost their business with <br /> Product</h2>
         <button className="footer-btn">Get This</button>
